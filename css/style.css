@@ -62,6 +62,90 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-body {
-	background-color: red;
+header div.container {
+	background-color: dimgray;
+	color: chartreuse;
+}
+
+h1 {
+	color: chartreuse;
+}
+
+section div.container {
+}
+
+footer div.container {
+	background-color: #000000;
+	text-align: center;
+}
+
+h4 {
+	color: white;
+}
+
+.about-me {
+	background-color: blue;
+	color: white;
+}
+
+img[alt*="captain picard"] {
+	float: left;
+	border: #FFFFFF;
+	margin: 20px;
+	height: 300px;
+	width: 400px;
+}
+
+img[alt*="captain janeway"] {
+	float: right;
+	border: #FFFFFF;
+	margin: 20px;
+	height: 300px;
+	width: 400px;
+}
+
+
+
+
+
+
+
+.form-wrapper {
+	background-color: #003300;
+	border: 20px #000000;
+	color: #32cd32;
+}
+
+.form-wrapper label, input, textarea {
+	margin-bottom: 10px;
+}
+
+.form-wrapper input, textarea {
+	width: 30%;
+}
+
+.form-wrapper button {
+	background-color: #32cd32;
+	color: #000000;
+}
+
+header h1 {
+	margin: 0 2rem 0 0;
+	display: inline-block;
+}
+
+.instructions-wrapper {
+	display: flex;
+	margin: 60px auto;
+	border: 6px solid black;
+}
+
+table {
+
+	width: 80%;
+
+	margin: 10px;
+
+	color: #32cd32;
+
 }
